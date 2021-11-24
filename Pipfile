@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-contrib-python = "*"
+matplotlib = "*"
+pyqt5 = "*"
+opencv-python = "*"
+numpy = "*"
+scipy = "*"
+tensorboardx = "*"
+torchvision = "*"
+torchsummary = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
